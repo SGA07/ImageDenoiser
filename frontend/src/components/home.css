@@ -1,0 +1,47 @@
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+   
+}
+
+.startlink{
+  text-align: right ;
+  padding-right: 400px;
+  color:white;
+  font-size: 35px;
+  margin-top: -60px;
+  text-decoration: none;
+}
+
+.link{
+  text-decoration: none ;
+}
+
+.navbar{
+  background-color: #d9d9d9;
+  color: black;
+  padding-left: 20px;
+  text-align: left;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.navtext{
+  padding-left: 10px;
+  font-size: large;
+  text-align: right !important;
+}
+
+.inline_text{
+  text-align: right !important;
+}
+
+.navlink{
+  padding-left: 20px;
+}
+
+.summary{
+  text-align: justify;
+}

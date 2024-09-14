@@ -1,0 +1,134 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  left: 0;
+  background-image: url("../black_bg_noisy.png");
+}
+
+
+.right {
+  right: 0;
+  background-image: url("../white_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.left_heading{
+    font-size: large;
+    text-align: center;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    align-content: center;
+}
+
+.right_heading{
+    font-size: large;
+    text-align: center;
+    color:black;
+    margin-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+}
+
+.image{
+  max-width:600px;
+  max-height:600px;
+  width: auto;
+  height: auto;
+  }
+
+  .image-div{
+    padding: 50px 50px 0px 50px !important;
+  }
+
+  .file{
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .capturebtn{
+    border: none;
+    margin-top: 2px;
+  }
+
+  .denoisebtn{
+    border: none;
+    margin-top: 20px;
+  }
+
+  .clean_image{
+    padding-top: 50px ;
+    height: 600px;
+    width: 600px;
+  }
+
+  .noise{
+    text-align: left;
+    margin-left: 200px !important;
+    padding-top: 10px !important;
+  }
+
+  .download{
+      padding-bottom:20px;
+  }
+
+  .btn{
+    border-radius: 50%;
+    background-color: #fff !important;
+  }
+
+  .btn-dark{
+    color: #000 !important;
+  }
+
+  input::file-selector-button {
+    border-radius: 50%;
+    background-color: #fff !important;
+    padding: 0.35em 1em 0.35em 1em;
+    border: thin solid grey;
+    border-radius: 3px;
+}
+
+.right_heading h1{
+  font-weight: 900 !important;
+  /* font-family: "Poppins"; */
+}
+
+.loading{
+  z-index: 99 !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.85) !important;
+}
+
+.loader{
+  z-index: 100 !important;
+  position: absolute;
+  top: 50%;
+  height: 3rem !important;
+  width: 3rem !important;
+}
